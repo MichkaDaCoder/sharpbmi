@@ -1,0 +1,86 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SharpBMI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">db_sharpbmi</Value>
+    </Setting>
+    <Setting Name="uid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="SQL_INSERT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">INSERT INTO {0}({1}) VALUES({2})</Value>
+    </Setting>
+    <Setting Name="TABLE_BMI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BMI</Value>
+    </Setting>
+    <Setting Name="SUCCESS_ADDED" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Record added successfully</Value>
+    </Setting>
+    <Setting Name="FAILURE_ADD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Failed to add record. Please try again or contact the developer.</Value>
+    </Setting>
+    <Setting Name="SUCCESS_EXPORTED" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Successfully exported!</Value>
+    </Setting>
+    <Setting Name="FAILURE_EXPORTED" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Failed to export the document. Please try again.</Value>
+    </Setting>
+    <Setting Name="PDF_FILE_FILTER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PDF Document File(*.pdf) | *.pdf</Value>
+    </Setting>
+    <Setting Name="XML_FILE_FILTER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">XML Document File(*.xml) | *.xml</Value>
+    </Setting>
+    <Setting Name="PDF_EXTENSION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.pdf</Value>
+    </Setting>
+    <Setting Name="XML_EXTENSION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.xml</Value>
+    </Setting>
+    <Setting Name="EMPTY_HEIGHT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please fill your height.</Value>
+    </Setting>
+    <Setting Name="EMPTY_WEIGHT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please fill your weight.</Value>
+    </Setting>
+    <Setting Name="CONFIRM_CLOSE_APPLICATION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Are you sure that you want to exit?</Value>
+    </Setting>
+    <Setting Name="ALREADY_EXISTS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">The record already exists</Value>
+    </Setting>
+    <Setting Name="SUCCESS_DATABASE_CONNECTION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Successfully connected to the Database</Value>
+    </Setting>
+    <Setting Name="ERROR_DATABASE_CONNECTION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Failed to connect to the Database.</Value>
+    </Setting>
+    <Setting Name="SUCCESS_MYSQL_START" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MySQL Service started successfully!</Value>
+    </Setting>
+    <Setting Name="FAILURE_MYSQL_START" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MySQL Service failed to start.</Value>
+    </Setting>
+    <Setting Name="UNINSTALLED_MYSQL_SERVICE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MySQL Service is not installed.</Value>
+    </Setting>
+    <Setting Name="MYSQL_SERVICE_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MySQL57</Value>
+    </Setting>
+    <Setting Name="db_sharpbmiConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;user id=root;password=;server=localhost;database=db_sharpbmi&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">user id=root;password=;server=localhost;database=db_sharpbmi</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
